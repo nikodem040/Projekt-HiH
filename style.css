@@ -1,0 +1,305 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient( to right, rgba(41, 44, 221, 0.3),rgba(221, 31, 31, 0.3)), url(img/tlo.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+active
+body{
+    
+    width: 100%;
+    background-image: linear-gradient( to right, rgba(41, 44, 221, 0.3),rgba(221, 31, 31, 0.3)), url(img/tlo.jpg);
+    background-position: center;
+    background-size: cover;
+   
+    
+
+
+}
+footer {
+    position:fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    background-color: black;
+    text-align: center;
+    
+
+}
+
+.text{
+    color: white;
+    font-family: Arial;
+    
+
+
+}  
+
+.text h2 {
+    color: white;
+    font-family: Arial;
+    text-align: center;
+   
+
+
+
+}
+
+
+
+.logo{
+margin-left: auto;
+width: 70%;
+height: 70%;
+
+}
+nav{    
+display: flex;
+padding: 1% 2%;
+justify-content: space-between;
+align-items: center;
+}
+
+.nav-links{
+flex: 1;
+text-align: right;
+
+
+}
+.nav-links ul li{
+list-style: none;
+display: inline-block;
+padding: 6px 10px;
+position: relative;
+
+}
+
+.nav-links ul li a{
+color:white;
+text-decoration: solid;
+font-size: 25px;
+font-family: Arial;
+}
+
+.nav-links ul li::after{
+
+content: '';
+width: 0%;
+height: 3px;
+background: linear-gradient( to right, rgba(41, 44, 221, 1),rgba(221, 31, 31, 1) );
+display: block;
+margin: auto;
+transition: 0.5s;
+}
+
+.nav-links ul li:hover::after{
+    width: 100%;
+
+}
+
+.text-box{
+    width: 90%;
+    color: white;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);  
+   text-align: center;
+}
+.text-box h1{
+    font-size: 60px;
+}
+.text-box h4{
+    font-size: 15px;
+    margin: 10px 0px 40px;
+}
+
+.hero-btn{
+    display: inline-block;
+    text-decoration:none;
+    color:white;
+    border: 1px solid white;
+    padding: 12px 30px;
+    font-size: 15px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+
+}
+
+.hero-btn:hover{
+    border: 1px solid linear-gradient( to right, rgba(41, 44, 221, 1),rgba(221, 31, 31, 1) );
+    background: linear-gradient( to right, rgba(41, 44, 221, 1),rgba(221, 31, 31, 1) );
+    transition: 3s;
+}
+ .left {
+
+    float: left;
+    padding: 3px;
+    
+}
+.right{
+
+    float: right;
+    padding: 3px;
+}
+
+@media(max-width: 700px){
+
+    .text-box h1{
+        font-size: 18px;}
+    
+    .nav-links ul li a{
+
+    font-size: 10px;
+    }
+
+    .logo {
+        margin: 10px 10px 10px 10px;
+        width: 40%;
+        height: 40%;
+    }
+    nav{
+        align-items: flex-start;
+        justify-content: flex-start;
+        
+    }
+   img{
+    width: 100%;
+    height: auto;
+   }
+   table{
+    width: 100%;
+   }
+
+}
+
+.header .active {
+
+    font-style: italic;
+    font-size: 180%;
+    color: goldenrod;
+}
+
+.svg{
+    position:relative;
+    top: 300px;
+
+
+}
+
+.top {
+    display: inline-block;
+    text-decoration:none;
+    color:white;
+    border: 1px solid white;
+    padding: 12px 30px;
+    font-size: 15px;
+    background: transparent;
+    cursor: pointer;
+    position:relative;
+    left: 43%;
+
+
+    
+
+   
+
+}
+
+.top:hover {
+    border: 1px solid linear-gradient( to right, rgba(41, 44, 221, 1),rgba(221, 31, 31, 1) );
+    background: linear-gradient( to right, rgba(41, 44, 221, 1),rgba(221, 31, 31, 1) );
+}
+
+table, th ,td ,tr {
+padding: 3px;;
+text-align: center;
+border: 5px solid black;
+
+}
+
+table{
+    margin : 10px 10px 10px 10px;
+    border-collapse: collapse;
+    background-color: black;
+    color: white;
+}
+
+.sum{
+
+    color: white;
+    background-color: blue;
+}
+
+.cell{
+    background: linear-gradient(to left, blue 50%, red 50%)
+
+
+}
+
+.photo{
+
+    margin: 10px 0;
+    width: 120px;
+    background: goldenrod;
+    padding: 10px;
+    opacity: 0.7;
+    border-radius: 5px;
+    border: 1px solid silver;
+    box-sizing: border-box;
+
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+.photo img{
+    width: 100px;
+    flex-basis: 100%;
+}
+
+.photo figcaption{
+    margin-top: 10px;
+    color:goldenrod;
+    font-size: 0px;
+}
+
+.photo:hover{
+
+    opacity: 1;
+    transition: 0.3s all linear;
+    transform: scale(2);
+    
+    
+
+}
+
+.galery{
+
+display:flex;
+flex-wrap: wrap;
+justify-content: space-around;
+
+}
+
+.photo:hover figcaption{
+    color:black;
+    font-size: 12px;
+}
+
+
+
+
+
+

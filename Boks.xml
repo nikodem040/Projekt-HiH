@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+
+    <Boks>
+        <autor>
+            <imie> Nikodem </imie>
+            <nazwisko> Kozak </nazwisko>
+        </autor>
+
+
+        <title> Boks </title>
+
+            <federacje>
+                <federacja rodzaj="amatorska">
+                    <nazwa> International Boxing Association </nazwa>
+                    <zasieg> Caly swiat </zasieg>
+                    <skrot> IBA </skrot>
+                    <kategorie-ze-wzgledu-na-plec> 
+                                <plcie> kobiety </plcie>
+                                <plcie> mezczyni </plcie>
+                    </kategorie-ze-wzgledu-na-plec>
+                    <kategorie-wagowe>
+                        <waga> 46-48 </waga>
+                        <waga> 48-51 </waga>
+                        <waga> 51-54 </waga>
+                        <waga> 54-57 </waga>
+                        <waga> 57-60 </waga>
+                        <waga> 60-63,5 </waga>
+                        <waga> 63,5-67 </waga>
+                        <waga> 67-71 </waga>
+                        <waga> 71-75 </waga>
+                        <waga> 75-80 </waga>
+                        <waga> 80-86 </waga>
+                        <waga> 86-92 </waga>
+                        <waga> 92+ </waga>
+                    </kategorie-wagowe>
+                </federacja>
+                <federacja rodzaj="zawodowa">
+                    <nazwa> World Boxing Council </nazwa>
+                    <zasieg> Glownie USA </zasieg>
+                    <skrot> WBC </skrot>
+                    <kategorie-ze-wzgledu-na-plec> 
+                                <plcie> kobiety </plcie>
+                                <plcie> mezczyni </plcie>
+                    </kategorie-ze-wzgledu-na-plec>
+                        <waga> 47,627 kg-48,988 kg </waga>
+                        <waga> 48,988 kg-50,802 kg </waga>
+                        <waga> 50,802 kg-52,163 kg </waga>
+                        <waga> 52,163 kg-53,524 kg </waga>
+                        <waga> 53,524 kg-55,338 kg </waga>
+                        <waga> 55,338 kg-57,153 kg </waga>
+                        <waga> 57,153 kg-58,967 kg </waga>
+                        <waga> 58,967 kg-61,235 kg </waga>
+                        <waga> 61,235 kg-63,503 kg </waga>
+                        <waga> 63,503 kg-66,678 kg </waga>
+                        <waga> 66,678 kg-69,853 kg </waga>
+                        <waga> 69,853 kg-72,575 kg </waga>
+                        <waga> 72,575 kg-76,204 kg </waga>
+                        <waga> 76,204 kg-79,379 kg </waga>
+                        <waga> 69,853 kg-72,575 kg </waga>
+                        <waga> 72,575 kg-76,204 kg </waga>
+
+
+
+
+                
+                    
+                    
+
